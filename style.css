@@ -1,0 +1,95 @@
+   html, body
+    {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+    input:focus {
+      outline:none;
+    }
+
+    /*input {
+      border: 0;
+    }*/
+
+    #wrapper {
+      width: 100%;
+      height: 100%;
+    }
+
+    #topbar {
+      background-color: #EDEDED;
+      height: 40px;
+      width: 100%;
+      border-bottom: 1px solid grey;
+    }
+
+    #title {
+      float: left;
+      margin : 7px;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: bold;
+    }
+
+    #checkboxes {
+      margin-top: 1px;
+      text-align: center;
+    }
+
+    #checkboxes.ui-state-active span.ui-button-text {
+      color: #808080;
+    }
+
+    #runButton {
+      float: right;
+      width: 50px;
+      height: 30px;
+      font-size: 1.2em;
+      margin-top: 5px;
+      margin-right: 5px;
+      border: none;
+      border-radius: 5px;
+      background-color: #C0BEBF;
+    }
+
+    #clear {
+      clear: both;
+    }
+
+    .codeDiv {
+      display: none;
+      float: left;
+      position: relative;
+      width: 50%;
+    }
+
+    .codeDiv textarea {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-right: 1px solid grey;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 110%;
+      box-sizing: border-box;
+      padding: 5px;
+      resize: none;
+    }
+
+    .codeDiv iframe {
+      padding: 5px;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .codeLabel {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      border: solid black 1px;
+      border-radius: 5px;
+      padding: 3px;
+    }
